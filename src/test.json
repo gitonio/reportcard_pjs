@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Bitcoin",
+    "whitepaper": true,
+    "currency": "$btc",
+    "clone": "",
+    "consensys": "POW",
+    "participation": "public",
+    "model": "UTXO",
+    "tech": "C++",
+    "smartcontracts": false,
+    "sidechains":[],
+    "decentralScore": 100,
+    "innovationScore": 50,
+    "momentumScore": 50
+  },
+  {
+    "name": "Stratis",
+    "whitepaper": true,
+    "currency": "$strat",
+    "clone": "Bitcoin",
+    "consensys": "POS",
+    "participation": "federated",
+    "model": "UTXO",
+    "tech": "C#",
+    "smartcontracts": false,
+    "sidechains": [
+      {
+        "name": "blitzcash"
+      }
+    ],
+    "decentralScore": 50,
+    "innovationScore": 50,
+    "momentumScore": 100
+  }
+]
